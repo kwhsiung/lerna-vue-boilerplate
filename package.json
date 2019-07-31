@@ -18,7 +18,9 @@
     "@vue/eslint-config-prettier": "^5.0.0",
     "babel-loader": "^8.0.6",
     "babel-preset-vue": "^2.0.2",
+    "commitizen": "^4.0.3",
     "commitlint": "^8.1.0",
+    "cz-conventional-changelog": "^3.0.2",
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-vue": "^5.2.3",
     "husky": "^3.0.2",
@@ -39,7 +41,8 @@
     "sfc-init": "sfc-init",
     "serve": "vue serve",
     "lint": "vue-cli-service lint --no-fix --max-warnings 0 --ignore-path .gitignore --no-ignore .storybook/*.js",
-    "lintfix": "vue-cli-service lint --ext .js,.vue --max-warnings 0 --ignore-path .gitignore --no-ignore .storybook/*.js ."
+    "lintfix": "vue-cli-service lint --ext .js,.vue --max-warnings 0 --ignore-path .gitignore --no-ignore .storybook/*.js .",
+    "commit": "npx git-cz"
   },
   "husky": {
     "hooks": {
